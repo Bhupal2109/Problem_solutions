@@ -4,9 +4,6 @@ class Solution {
         int h = nums.length-1;
         int ans = Integer.MAX_VALUE;
 
-      if(nums.length<2){
-        return nums[0];
-      }
         while(l<=h){
             int m = l+(h-l)/2;
            if(nums[l]==nums[m] && nums[m]==nums[h]){
